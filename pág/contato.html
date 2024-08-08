@@ -11,29 +11,46 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
   />
 </head>
+<script src="../JavaScript/mobileMenu.js" defer></script>
 <body>
 
     <header>
+        <button class="hamburguer" id="hamburguerButton">
+            <i class="fas fa-bars"></i>
+        </button>
+
         <div id="perfil"><img id="perfil2" src="../imagens/Luis.png" alt="imagem teste Perfil"></div>
         <h3>Luis Araújo</h3>
-
-        <nav id="redes">
-            <a href="https://www.instagram.com/sith_luis/" target="_blank"><img src="../imagens/instagramP.jpg" alt="instagram"></a>
-            <a href="https://www.facebook.com/luiscarlos.araujodapaixao/" target="_blank"><img src="../imagens/facebookP.png" alt="facebook"></a>
-            <a href="https://github.com/Sithluis" target="_blank"><img src="../imagens/githubP.jpg" alt="github"></a>
-            <a href="https://www.linkedin.com/in/luis-carlos-ara%C3%BAjo-74aa1b28a/" target="_blank"><img src="../imagens/linkedinP.jpg" alt="linkedin"></a>
-
-        </nav>
 
         <nav id="me">
             <a href="../index.html"><i class="fa-solid fa-house icon-space" ></i>Home</a>
             <a href="Eu.html"><i class="fa-solid fa-user icon-space"></i>Eu</a>
             <a href="resumo.html"><i class="fa-solid fa-file icon-space"></i>Resumo</a>
-            <a href="portifolio.html"><i class="fa-solid fa-address-book icon-space"></i>Portifólio</a>
+            <a href="#top"><i class="fa-solid fa-address-book icon-space"></i>Portifólio</a>
             <a href="serviços.html"><i class="fa-solid fa-bell-concierge icon-space"></i>Serviços</a>
-            <a href="#top"><i class="fa-solid fa-envelope icon-space"></i>Contato</a>
+            <a href="contato.html"><i class="fa-solid fa-envelope icon-space"></i>Contato</a>
         </nav>
 
+    <div class="mobile-menu" id="mobileMenu">
+
+        <button class="close" id="closeButton">
+            <i class="fas fa-times"></i>
+        </button>
+
+            <div id="perfil-mobile"><img id="perfil2-mobile" src="../imagens/Luis.png" alt="imagem teste Perfil"></div>
+            <h3>Luis Araújo</h3>
+
+        <nav id="me-mobile">
+            <a href="../index.html"><i class="fa-solid fa-house icon-space" ></i>Home</a>
+            <a href="Eu.html"><i class="fa-solid fa-user icon-space"></i>Eu</a>
+            <a href="resumo.html"><i class="fa-solid fa-file icon-space"></i>Resumo</a>
+            <a href="#top"><i class="fa-solid fa-address-book icon-space"></i>Portifólio</a>
+            <a href="serviços.html"><i class="fa-solid fa-bell-concierge icon-space"></i>Serviços</a>
+            <a href="contato.html"><i class="fa-solid fa-envelope icon-space"></i>Contato</a>
+        </nav>
+
+    </div>
+        
     </header>
 
     <section>
@@ -41,7 +58,7 @@
         <main>
             <h1>Minhas Redes Sociais</h1>
             <p>Oi! quer entrar em contato comigo? instagram, linkedin, facebook e github. <br>
-                essas são todas as redes sociais onde estou ativo, apresente sua ideia para sites <br> ou bugs que já existam no seu site(se o bug for meu você tem todo o direito). <br> Meu Nome é Luis Carlos, mande sua mensagem ou proposta no privado e aguarde a minha resposta.
+                essas são todas as redes sociais onde estou ativo!
             </p>
 
         </main>
