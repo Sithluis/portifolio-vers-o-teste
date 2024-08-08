@@ -5,6 +5,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -156,19 +157,14 @@ section {
     display: none;
 }
 
-#alinhar2 {
-    display: none;
-}
-
 /* MODAL STYLE */
-
 .modal-content {
-    background-color: rgba(17, 17, 27, 0.822); 
+    background-color: rgba(17, 17, 27, 0.822);
     color: rgb(177, 177, 177);
 }
 
 .modal-content a {
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     color: rgb(17, 16, 24);
     padding: 10px;
     text-decoration: none;
@@ -178,20 +174,19 @@ section {
 }
 
 .modal-content a:hover {
-    background-color: rgba(255, 255, 255, 0.795);
+    background-color: rgba(255, 255, 255, 0.240);
     box-shadow: 2px 2px 7px rgba(255, 255, 255, 0.240);
 }
 
 .modal-content button {
     background-color: rgb(80, 83, 104);
-    color: white;
-}
-
-#alinhar2 {
-    display: none;
+    color: #fff;
 }
 
 /* Media Queries */
+#alinhar2 {
+    display: none;
+}
 
 @media (min-width: 992px) and (max-width: 1260px) {
     /* Estilos para telas de notebook */
@@ -608,7 +603,7 @@ section {
         margin-right: 8px;
     }
 
-     section {
+    section {
         display: none;
     }
 
@@ -618,7 +613,7 @@ section {
     
     #alinhar2 > h1 {   
         color: rgb(8, 8, 73);
-        width: 90vw;
+        width: 100%;
         margin: auto;
         margin-top: 60px;
         margin-bottom: 20px;
@@ -650,9 +645,8 @@ section {
     }
     
     .sites  img {
-        width: 100px;
-        height: 100px;
-        margin-right: 500px;
+        width: 130px;
+        height: 130px;
         border-radius: 0;
         box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
         transition-duration: .3s;
@@ -661,40 +655,8 @@ section {
 
     .btn-primary {
         background-color: rgba(206, 197, 197, 0.658);
-        color: rgb(15, 41, 88);
-        width: auto;
-        margin: auto;
-        font-size: 15px;
-        font-weight: 500;
-        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
-        border: none;
-        transition-duration: .3s;
-    }
-  }
-
-    
-    .sites > h3 {
-        color: rgb(185, 185, 197);
-        font-size: 1rem;
-        text-decoration: underline;
-        text-align: center;
-    }
-    
-    .sites  img {
-        width: 100px;
-        height: 100px;
-        margin-right: 500px;
-        margin: auto;
-        margin: 5px;
-        border-radius: 15px;
-        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
-        transition-duration: .3s;
-        box-sizing: border-box;
-    }
-
-    .btn-primary {
-        background-color: rgba(206, 197, 197, 0.658);
-        color: rgb(15, 41, 88);
+        color: rgb(7, 24, 56);
+        text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
         width: auto;
         margin: auto;
         font-size: 10px;
