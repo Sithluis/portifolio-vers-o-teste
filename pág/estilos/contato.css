@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(/pág/BG/Contato.jpg);
+    background-image: url(https://raw.githubusercontent.com/Sithluis/Imagens/main/BG/Contato.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
