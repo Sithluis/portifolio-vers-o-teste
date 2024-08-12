@@ -474,13 +474,13 @@ section {
 
   @media (max-width: 425px) {
 
-    body {
+   /* body {
         background: url(https://raw.githubusercontent.com/Sithluis/Imagens/main/PortP.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-    }
+    }  */
 
     header {
         background-color: rgb(17, 17, 27);
