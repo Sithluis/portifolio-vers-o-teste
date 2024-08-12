@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(/pág/BG/fundo0.png);
+    background-image: url(https://raw.githubusercontent.com/Sithluis/Imagens/main/BG/fundo0.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -473,6 +473,15 @@ section {
   }
 
   @media (max-width: 425px) {
+
+    body {
+        background: url(https://raw.githubusercontent.com/Sithluis/Imagens/main/PortP.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
     header {
         background-color: rgb(17, 17, 27);
         color: rgb(199, 199, 199);
