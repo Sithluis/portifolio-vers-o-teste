@@ -245,7 +245,7 @@ section {
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 760px) {
 
     header {
         background-color: rgb(17, 17, 27);
