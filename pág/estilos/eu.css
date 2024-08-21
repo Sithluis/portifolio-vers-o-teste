@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 body {
-    background-color: black;
+    background-image: url(https://raw.githubusercontent.com/Sithluis/Imagens/main/BG/Uprogramador.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -86,18 +90,22 @@ section {
 }
 
 #alinhar > h1 {   
-    color: rgb(0, 0, 0);
+    color: rgb(189, 189, 189);
+    text-shadow: 2px 2px 5px black;
     font-size: 2.5rem;
 }
 
 #alinhar > h2 {   
-    color: rgb(0, 0, 0);
+    color: rgb(189, 189, 189);
+    text-shadow: 2px 2px 5px black;
     padding: 5px;
 }
 
 
 #alinhar > p {
-    color: green;
+    background-color: rgba(0, 0, 0, 0.61);
+    box-shadow: 2px 2px 5px black;
+    color: rgb(108, 140, 187);
     font-size: 1.5rem;
 }
 
