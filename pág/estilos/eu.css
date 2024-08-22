@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(https://raw.githubusercontent.com/Sithluis/Imagens/main/BG/Uprogramador.jfif);
+    background-image: url(https://github.com/Sithluis/Imagens/blob/main/BG/0fundo.jpg?raw=true);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +11,7 @@ body {
 header {
     background-color: rgb(17, 17, 27);
     color: rgb(199, 199, 199);
-    width: 16vw;
+    width: 17vw;
     height: 95vh;
     padding:10px;
     float: left;
@@ -86,26 +86,28 @@ section {
 }
 
 #alinhar {
-
+/*background-color: #00000052;*/
+background-color: rgba(17, 17, 27, 0.534);
+padding: 10px;
 }
 
-#alinhar > h1 {   
-    color: rgb(189, 189, 189);
-    text-shadow: 2px 2px 5px black;
+#alinhar > h1 {  
+    color: rgb(197, 197, 197);
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
     font-size: 2.5rem;
 }
 
 #alinhar > h2 {   
-    color: rgb(189, 189, 189);
-    text-shadow: 2px 2px 5px black;
+    color: rgb(197, 197, 197);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
     padding: 5px;
 }
 
 
 #alinhar > p {
-    background-color: rgba(0, 0, 0, 0.61);
-    box-shadow: 2px 2px 5px black;
-    color: rgb(108, 140, 187);
+    color: rgb(129, 175, 255);
+    text-shadow: 2px 2px 5px black;
     font-size: 1.5rem;
 }
 
@@ -192,17 +194,35 @@ section {
         text-align: center;
     }
     
-    #alinhar > h1 {   
-        color: rgb(0, 0, 0);
-        margin: auto;
-        font-size: 2.5rem;
-        padding: 10px;
-    }
-    
-    #alinhar > p {
-        color: green;
-        font-size: 1.1rem;
-    }
+    #alinhar {
+        width: 70vw;
+        margin-left: 205px;
+        /*background-color: #00000052;*/
+        background-color: rgba(17, 17, 27, 0.534);
+        padding: 5px;
+        }
+        
+        #alinhar > h1 {  
+            margin-bottom: -15px;
+            font-size: 35px;
+            color: rgb(197, 197, 197);
+            padding: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+        }
+        
+        #alinhar > h2 {   
+            font-size: 20px;
+            color: rgb(197, 197, 197);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+            padding: 5px;
+        }
+        
+        
+        #alinhar > p {
+            color: rgb(129, 175, 255);
+            text-shadow: 2px 2px 5px black;
+            font-size: 1.3rem;
+        }
     
     .sites {
         width: 15vw;
@@ -257,7 +277,7 @@ section {
     header {
         background-color: rgb(17, 17, 27);
         color: rgb(199, 199, 199);
-        width: 27vw;
+        width: 22vw;
         height: 90vh;
         padding:10px;
         float: left;
@@ -329,18 +349,35 @@ section {
         text-align: center;
     }
     
-    #alinhar > h1 {   
-        color: rgb(0, 0, 0);
-        margin: auto;
-        font-size: 2.5rem;
-        padding: 10px;
+    #alinhar {
+        width: 92vw;
 
-    }
-    
-    #alinhar > p {
-        color: green;
-        font-size: 1.1rem;
-    }
+        /*background-color: #00000052;*/
+        background-color: rgba(17, 17, 27, 0.534);
+        padding: 5px;
+        }
+        
+        #alinhar > h1 {  
+            margin-bottom: -15px;
+            font-size: 28px;
+            color: rgb(197, 197, 197);
+            padding: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+        }
+        
+        #alinhar > h2 {   
+            font-size: 16px;
+            color: rgb(197, 197, 197);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+            padding: 5px;
+        }
+        
+        
+        #alinhar > p {
+            color: rgb(129, 175, 255);
+            text-shadow: 2px 2px 5px black;
+            font-size: 1.1rem;
+        }
     
     .sites {
         width: 15vw;
@@ -532,34 +569,35 @@ section {
     }
 
     #alinhar2 {
-        margin-top: 150px;
+        margin-top: 130px;
         display: block;
-    }
+        width: 96vw;
+        background-color: rgba(17, 17, 27, 0.534);
+        padding: 0;
+        }
+        
+        #alinhar2 > h1 {  
+            font-size: 25px;
+            color: rgb(197, 197, 197);
+            padding: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+        }
+        
+        #alinhar2 > h2 {   
+            font-size: 18px;
+            color: rgb(197, 197, 197);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+            padding: 2px;
 
-    #alinhar2 > h1 {   
-        background-color: rgba(0, 0, 0, 0.322);
-        color: rgba(255, 255, 255, 0.733);
-        font-size: 1.5rem;
+        }
+        
+        
+        #alinhar2 > p {
+            color: rgb(129, 175, 255);
+            text-shadow: 2px 2px 5px black;
+            font-size: 15px;
+            line-height: 25px;
+        }
     
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
-    }
-    
-    #alinhar2 > h2 {   
-        background-color: rgba(0, 0, 0, 0.322);
-        color: rgb(255, 255, 255);
-        font-size: 1.1rem;
-        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.596);
-        padding: 5px;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
-    }
-    
-    
-    #alinhar2 > p {
-        background-color: rgba(0, 0, 0, 0.699);
-        color: green;
-        font-size: 14px;
-        text-indent: 5px;
-        line-height: 25px;
-    }
 
   }
