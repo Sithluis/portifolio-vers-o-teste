@@ -27,7 +27,7 @@ header > h3 {
 }
 
 #redes {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 40px;
 }
 
@@ -120,7 +120,7 @@ ul > li a:hover {
     header {
         background-color: rgb(17, 17, 27);
         color: rgb(199, 199, 199);
-        width: 17vw;
+        width: 18vw;
         height: 90vh;
         padding:10px;
         float: left;
@@ -145,7 +145,7 @@ ul > li a:hover {
     }
     
     #redes  img {
-        width: 25px;
+        width: 28px;
         margin: 4px;
         border-radius: 50%;
         box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
@@ -160,7 +160,7 @@ ul > li a:hover {
     }
     
     #me {
-        margin-top: 30px;
+        margin-top: 20px;
         padding: 10px;
     }
     
@@ -220,7 +220,7 @@ ul > li a:hover {
     header {
         background-color: rgb(17, 17, 27);
         color: rgb(199, 199, 199);
-        width: 22vw;
+        width: 21vw;
         height: 82vh;
         padding:10px;
         float: left;
@@ -229,23 +229,23 @@ ul > li a:hover {
     header  #perfil2 {
         width: 100px;
         height: 100px;
-        margin-left: 40px;
+        margin-left: 25px;
         border-radius: 50%;
         border: 5px solid rgb(62, 62, 99);
     }
     
     header > h3 {
-        font-size: 1.2rem;
-        text-align: center;
+        font-size: 1.3rem;
+        text-align: auto;
     }
     
     #redes {
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     
     #redes  img {
-        width: 25px;
+        width: 24px;
         margin: 4px;
         border-radius: 50%;
         box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
@@ -260,7 +260,7 @@ ul > li a:hover {
     }
     
     #me {
-        margin-top: 30px;
+        margin-top: 20px;
         padding: 10px;
     }
     
@@ -473,7 +473,7 @@ ul > li a:hover {
     ul > li {
         list-style: none;
         margin-right: 0;
-        font-size: 1.2rem;
+        font-size: 13px;
         text-align: left;
         margin-bottom: 10px;
         margin-right: 10px;

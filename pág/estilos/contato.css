@@ -11,7 +11,7 @@ body {
 header {
     background-color: rgb(17, 17, 27);
     color: rgb(199, 199, 199);
-    width: 16vw;
+    width: 17vw;
     height: 94vh;
     padding:10px;
     float: left;
@@ -26,6 +26,7 @@ header  #perfil2 {
 }
 
 header > h3 {
+    font-size: 1.7rem;
     text-align: center;
 }
 
@@ -249,7 +250,7 @@ main > p {
     header {
         background-color: rgb(17, 17, 27);
         color: rgb(199, 199, 199);
-        width: 20vw;
+        width: 18vw;
         height: 90vh;
         padding:10px;
         float: left;
@@ -258,13 +259,13 @@ main > p {
     header  #perfil2 {
         width: 100px;
         height: 100px;
-        margin-left: 40px;
+        margin-left: 16px;
         border-radius: 50%;
         border: 5px solid rgb(62, 62, 99);
     }
     
     header > h3 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         text-align: center;
     }
     
