@@ -157,11 +157,6 @@ padding: 10px;
         box-sizing: border-box;
     }
     
-    #redes  img:hover {
-        transform: translate(-1px, -1px);
-        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
-    }
-    
     #me {
         margin-top: 20px;
         padding: 10px;
@@ -176,11 +171,6 @@ padding: 10px;
         display: block;
         text-decoration: none;
         transition-duration: .3s;
-    }
-    
-    #me > a:hover {
-        color: rgb(218, 216, 216);
-        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
     }
     
     .icon-space {
@@ -253,23 +243,6 @@ padding: 10px;
         transition-duration: .3s;
         box-sizing: border-box;
     }
-
-    .btn-primary {
-        background-color: rgba(206, 197, 197, 0.658);
-        color: rgb(15, 41, 88);
-        font-size: 13px;
-        font-weight: 500;
-        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
-        border: none;
-        transition-duration: .3s;
-    }
-    
-    .btn-primary:hover {
-        color: rgb(15, 41, 88);
-        background-color: rgb(206, 197, 197);
-        box-shadow: 3px 3px 8px rgba(65, 65, 65, 0.829);
-    }
-    
 }
 
   
@@ -312,11 +285,6 @@ padding: 10px;
         box-sizing: border-box;
     }
     
-    #redes  img:hover {
-        transform: translate(-1px, -1px);
-        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
-    }
-    
     #me {
         margin-top: 20px;
         padding: 10px;
@@ -331,11 +299,6 @@ padding: 10px;
         display: block;
         text-decoration: none;
         transition-duration: .3s;
-    }
-    
-    #me > a:hover {
-        color: rgb(218, 216, 216);
-        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
     }
     
     .icon-space {

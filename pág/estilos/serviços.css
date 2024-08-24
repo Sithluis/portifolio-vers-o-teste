@@ -175,11 +175,6 @@ section {
         box-sizing: border-box;
     }
     
-    #redes  img:hover {
-        transform: translate(-1px, -1px);
-        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
-    }
-    
     #me {
         margin-top: 20px;
         padding: 10px;
@@ -194,11 +189,6 @@ section {
         display: block;
         text-decoration: none;
         transition-duration: .3s;
-    }
-    
-    #me > a:hover {
-        color: rgb(218, 216, 216);
-        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
     }
     
     .icon-space {
@@ -299,11 +289,6 @@ section {
         box-sizing: border-box;
     }
     
-    #redes  img:hover {
-        transform: translate(-1px, -1px);
-        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
-    }
-    
     #me {
         margin-top: 20px;
         padding: 10px;
@@ -318,11 +303,6 @@ section {
         display: block;
         text-decoration: none;
         transition-duration: .3s;
-    }
-    
-    #me > a:hover {
-        color: rgb(218, 216, 216);
-        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
     }
     
     .icon-space {
