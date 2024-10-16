@@ -157,6 +157,10 @@ h2 {
   
 @media (min-width: 760px) and (max-width: 991px) {
     /* Estilos para telas de tablet */
+    body {
+        background-image: url(../imagens/Seja\ Bem-Vindo3.png);
+    }
+
     header {
         background-color: rgb(17, 17, 27);
         color: rgb(199, 199, 199);
