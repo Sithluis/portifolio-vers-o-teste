@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(../imagens/teste00.png);
+    background-image: url(../imagens/Design\ sem\ nome.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
 }
 
 header {
-    background-color: rgb(17, 17, 27);
+    background-color: #11111b;
     color: rgb(199, 199, 199);
     width: 18vw;
     height: 100vh;
