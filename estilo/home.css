@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(../imagens/Design\ sem\ nome.png);
+    background-image: url(../imagens/Seja\ Bem-Vindo.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -12,7 +12,7 @@ header {
     background-color: #11111b;
     color: rgb(199, 199, 199);
     width: 18vw;
-    height: 100vh;
+    height: 92vh;
     padding:10px;
     float: left;
 }
@@ -79,9 +79,20 @@ header > h3 {
     display: none;
 }
 /* Media Queries */
-#alinhar2 {
-    display: none;
+#alinhar {
+    width: 40vw;
+    height: 70vh;
+    margin-left: 300px;
+    color: #fff;
+    line-height: 400px;
 }
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2.1rem;
+}
+
 
 @media (min-width: 992px) and (max-width: 1260px) {
     /* Estilos para telas de notebook */
