@@ -216,6 +216,11 @@ h2 {
   }
 
   @media (max-width: 760px) {
+
+    body {
+        background-image: url(../imagens/Seja\ Bem\ Vindo\ mobile.png);
+    }
+
     header {
         background-color: rgb(17, 17, 27);
         color: rgb(199, 199, 199);
